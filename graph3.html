@@ -1,0 +1,38 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<script type="text/javascript">
+		window.onload = function () {
+			var chart = new CanvasJS.Chart("chartContainer", {
+				title: {
+					text: "Cases Of 2017"
+				},
+				
+				dataPointWidth:40,
+				data: [{
+					type: "column",
+					indexLabelLineThickness: 2,
+					dataPoints: [
+						  {y: 1,label: " Under age" },
+						  {y: 1,label:"Forced"},
+						  {y: 16,label: "Threat"},
+						  {y: 17,label: "Herassment"},
+						  {y: 103,label: "Being hit"},
+						  {y: 34,label: "Self-sacrifice"},
+
+						  
+					]
+				}]
+			});
+			chart.render();
+		}
+	</script>
+	<script src="js/jquery.canvasjs.min.js"></script>
+	<title>CanvasJS Example</title>
+</head>
+
+<body>
+	<div id="chartContainer" style="height: 300px; width: 100%; "></div>
+</body>
+
+</html>

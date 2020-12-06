@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CRYSTAL VALUES</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="img/png" href="img/tilogo.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/timeline.css">
+    <link rel="stylesheet" type="text/css" href="css/indexcss.css">
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script src="js/fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      var info = document.getElementsByClassName('info');
+      function f (a) {
+        var i;
+        for (i = 0; i < info.length; i++) {
+          info[i].style.border = "none"
+        };
+        a.style.border = "10px rgba(38, 38, 38,0.5) solid";
+        var p = document.getElementById('divforparagragh');
+        if(a.id == "favorite"){
+          p.innerHTML= "We are five members in our amazing team. Mina Tabibzada, Susan Shirzad, Atefah Mohammadi, Zainab Amini and Hasiba Qanizada.";
+          p.style.fontSize = "25px";
+          p.style.padding =" 70px";
+        }else if(a.id  == "cti"){
+          p.innerHTML= '<a  style="" href=" http://codetoinspire.org/"> <p style="font-size:40px; color:black;font-family:Arial">Code </p><span style="font-size:40px; color:gray;font-family:Arial"> <</span><span style="font-size:40px; color:black;font-family:Arial">To</span><span style="font-size:40px; color:gray;font-family:Arial">></span><br><span style="font-size:40px; color:black;font-family:Arial"> (</span><span style="font-size:40px; color:purple;font-family:Arial">Inspire</span><span style="font-size:40px; color:black;font-family:Arial">)</span><br>';
+          p.style.fontSize = "15px";
+          p.style.paddingTop =" 70px";
+        }else if(a.id  == "skill"){
+          p.innerHTML= 'We want to hellp Afhan girls! We have two ways: first, we want to aware all Afghan people about bad effects of threat and child marrige by book-messeges. second, we have financial assistance for the Afghan woman who have financial problem in their marrige.';
+          p.style.fontSize = "25px";
+          p.style.padding =" 50px";
+        }
+        else if(a.id  == "name"){
+          p.innerHTML= "CRYSTAL VALUES";
+          p.style.fontSize = "50px";
+          p.style.paddingTop =" 20%";
+        }else if(a.id  == "education"){
+          p.innerHTML= "We made tihs website as project in Hackathon March 2018 at CTI for women impoverment. We made this website by web designing languages(HTML, CSS, Javascript, jquery and bootstrap).";
+          p.style.fontSize = "25px";
+          p.style.paddingTop =" 70px";
+        }
+        else if(a.id  == "game"){
+          p.innerHTML= "How can we decrease threat and child marrige? <br>this is the  problem that we made two good ways which can solve it ";
+          p.style.fontSize = "25px";
+          p.style.padding =" 50px";
+        }else if(a.id  == "sport"){
+          p.innerHTML= "There are governmental instituions like Plohibition of violencea and women Rights Management and donars like Haka, Aweek, NRC, Unama and IDLO that support Afghan women who have problem.";
+          p.style.fontSize = "25px";
+          p.style.padding =" 50px";
+        }
+        
+      }
+    </script>
+
+		
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+    <div class="container-fluid">
+        <div class="row"  id="homenav">
+          <div class="col">
+             <nav class="navbar navbar-dark navbar-expand-sm fixed-top nav1">
+
+              <a class="navbar-brandn lrg-logo" >
+                <img src="img/logoimgwhite.png" width="70px">
+             </a>
+
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav"> 
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse" id="mynav">
+                <ul class="nav navbar-nav ml-auto" >
+                  <li class="nav-item">
+                    <a href="#homenav" class="nav-link"><i class ="fa fa-home" style="padding-right: 1%"></i>Home</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#about"><i class="fa fa-address-book" style="padding-right: 1%"></i>About</a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="#contact" class="nav-link"><i class="fas fa-phone" style="padding-right: 1%" ></i>Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <button id="signupbtn" class="btn btn-lg" data-target="#mymoda2" data-toggle="modal" >Sign Up</button>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+           </div>
+        </div>
+        <div>
+          <center>
+            <!-- startsign up -->
+              <div class="modal fade " id="mymoda2" >
+                  <div class="modal-dialog modal-sm modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                              <img src="img/logoimg.png" width="80px">
+                              <p class="modal-title" style="margin: auto;">Login Form</p>
+                              <button class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                            <div class="modal-body">
+                <div class="col-md-12">
+                    <form class="login-form">
+                        <div class="form-group">
+                          <i class=" fa fa-star"></i>
+                          <input class="validate input87" id="email" placeholder="Name" type="email"> 
+                        </div>
+                        <div class="form-group">
+                          <i class=" fa fa-star"></i>
+                          <input id="password" placeholder="Password" type="password" class="input87">
+                        </div>   
+                        <div class="form-group">
+                            <input type="checkbox" id="remember-me" >
+                            <label for="remember-me">Remember me</label>
+                        </div>
+                        <div>
+                          <a href="story.html" class="btn btn-dark" style="width:200px;">Login</a>
+                        </div>   
+                        <div id="Register76"> 
+                            <a href="#mymodal3" data-target="#mymodal2" data-toggle="modal"  data-dismiss="modal">Register Now!</a><br>
+                            <a href="#mymodal3"  data-target="#mymodal3" data-toggle="modal" data-dismiss="modal">Forgot password?</a>      
+                        </div>
+                    </form>
+                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </center>
+            <!-- sign up -->
+            <center>
+              <div class="modal fade " id="mymodal2">
+                  <div class="modal-dialog modal-sm modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="img/logoimg.png" width="80px">
+                            <p class="modal-title" style="margin: auto;">singn up Form</p>
+                            <button class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <div class="modal-body">
+              <div class="col-md-12">
+                <form class="login-form">
+                    <div class="form-group">
+                      <i class=" fa fa-star prefix"></i>
+                      <input class="validate input87" placeholder="Name" type="email"> 
+                    </div>
+                    <div class="form-group">
+                      <i class=" fa fa-star prefix"></i>
+                      <input class="validate input87" placeholder="Last name" type="email"> 
+                    </div>
+                    <div class="form-group">
+                      <i class=" fa fa-star prefix"></i>
+                      <input class="validate input87" placeholder="Email" type="email"> 
+                    </div>
+                    <div class="form-group">
+                      <i class=" fa fa-star prefix"></i>
+                      <input class="validate input87" id="email" placeholder="Password" type="password"> 
+                    </div>
+                    <center>
+                    <a href="#mymodal2" data-target="#mymodal2" data-toggle="modal"  data-dismiss="modal" class="btn btn-dark" style="width:200px;">Register Now!</a><br>
+                    </center> 
+                    <div id="Register76">
+                      <a href="#mymodal2"  data-target="#mymodal3" data-toggle="modal" data-dismiss="modal">Forgot password?</a><br>
+                        <a href="story.html" data-target="#mymodal" data-toggle="modal" data-dismiss="modal">Login</a>
+                    </div>
+                </form>
+              </div> 
+                        </div>
+                    </div>
+                  </div>
+              </div>   
+            </center>   
+              <!-- forgot form -->
+            <center>
+              <div class="modal fade " id="mymodal3">
+                  <div class="modal-dialog modal-sm modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <img src="img/logoimg.png" width="80px">
+                            <p class="modal-title" style="margin: auto;">forgot Form</p>
+                            <button class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <div class="modal-body">
+                                <div class="col-md-12">
+                <form class="login-form">
+                    <div class="form-group">
+                      <i class=" fa fa-star"></i>
+                      <input class="validate input87" id="email" placeholder="Email" type="email"> 
+                    </div>
+                        <div class="form-group" style="margin:auto; text-align: center;">
+                        <input type="checkbox" id="remember-me" >
+                      <label for="remember-me">Remember me</label>
+                    </div>
+                      <center><a href="#mymodal3" class="btn btn-dark" style="width:200px;">Recovery my password</a><br></center>
+                    <div id="Register76">
+                        <a href="#mymodal2"  data-target="#mymodal2" data-toggle="modal" data-dismiss="modal">Register Now!</a><br>
+                          <a href="story.html" data-target="#mymodal" data-toggle="modal" data-dismiss="modal">Login</a>
+                    </div>
+                    </form>
+                  </div>
+                </div>
+            </div>    
+                        </div>
+              </div>
+            </center>
+          <!-- finish sign up -->
+            </center>
+        </div>
+      <div class="row" style="margin-top: 20%; color: #000000;" >  
+        <div class="col-sm-12">
+          <div id="headtittle">
+            <div class="col-sm-8">
+              <h1 >CRYSTAL</h1>
+            </div>
+            <div class="col-sm-8 offset-md-1" >
+              <h1>VALUES</h1>
+            </div>
+            <div class="col-sm-3"  style="height: 3px; background-color: black;"></div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 offset-md-9" style="margin-top: 10%; margin-bottom: 8%; display: inline;">
+    
+
+            <!-- start modal   -->
+               <div class="container">
+                     <button class="btn-lg text"  id="donate"  data-target="#mymodal" data-toggle="modal"><i class="icon fas fa-dollar-sign" style="display: inline; font-size: 35px;"></i><h1 style="display: inline;">Donate</h1></button>
+                    <div class="modal fade" id="mymodal">
+                         <div class="modal-dialog modal-lg modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                     <center><h3 class="modal-title" style=" margin:0px 180px;">Donate Width a Credit Card</h3>
+                                     </center> 
+                                    <button class="close" data-dismiss="modal">&times;</button>
+                                 </div>
+                                  <div class="modal-body" style=" margin:0px 170px;">
+                                    <br><br>
+                                        <div class="row">
+                                            <center>
+                                              <div class="col-md-12">
+                                                 <h5>Donation amount</h5>
+                                                 <button class="btn hvr-grow btn12" >20$</button>
+                                                 <button class="btn hvr-grow btn12" >80$</button>
+                                                 <button class="btn hvr-grow btn12" >100$</button>
+                                                 <button class="btn hvr-grow btn12" id="btnothers">others</button>
+                                              </div>
+                                            </center>
+                                        </div>
+                                        
+                                        <br>
+                                        <br>
+                                        <br>
+                                          <div class="row" id="others" style="display:none;">
+                                              <div class="col-md-12" >
+                                                <center> <i class="fas fa-dollar-sign"></i><input type="text" placeholder="othera amounth" style="width:50%; border:0px; outline:0px; border-bottom:1px solid black;"></center> 
+                                              </div>
+                                          </div>
+                                            <br>
+                                          <div class="row" >
+                                              <div class="col-md-12">
+                                                   <center> <button class="btn btn12" data-target="#modal" data-toggle="modal" data-dismiss="modal">Donate</button></center>
+                                              </div>
+                                          </div>
+                                         
+                                          <br>
+                                          <br>
+
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                  </div>
+                </div>
+      
+              <div class="row">
+                        <div class="col">
+                            <div class="modal fade modal-sm" id="modal" style="margin:auto">
+                              <div class="modal-dialog modal-sm modal-dialog-centered">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                      <img src="img/logoimg.png" width="80px">
+                                        <center><P class="modal-title" style="margin-left:50px;">Crystal Values</P>
+                                           <p style="margin-left:10px;">Donation</p></center>
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  <div class="modal-body" style="text-align:center;"> 
+                                    <center>
+
+                                        <div class="row">
+                                          <div class="col-md-12">
+                                    
+                                              <div class="form-group">
+                                                <input type="text" name="" class="form-control" placeholder="Enter your name">
+                                              </div>
+                                          </div>
+                                        </div>
+                                         <div class="row">
+                                            <div class="col-md-12">
+                                                  <div class="form-group">
+                                                    <input type="text" name="" class="form-control" placeholder="Phone" >
+                                                    <br>
+                                                    <input type="text" name="" class="form-control" placeholder="xx/yy" style="width:130px; display:inline-block;" >
+                                                    <input type="text" name="" class="form-control" placeholder="yy/xx" style="width:130px; display:inline-block;" >
+                                                  </div>
+                                          </div>
+                                        </div>
+                                          <div class="row">          
+                                              <div class="col-sm-12" stle="width:200px; border:1px solid black; height:100px;">
+                                                  <input type="checkbox" id="remember-me" >
+                                                  <label for="remember-me">Remember me</label>
+                                              </div>
+                                            </div>
+                                        <center>
+                                          <button class="btn bg-dark hvr-grow text-white btn12" style="width:260px;">SEND</button>
+                                        </center>
+                                  
+                                    </div>
+                                 
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <!-- finish modal -->
+          </div>
+
+          
+          
+        </div>
+
+
+      <div class="row" style="background-color: white; text-align: justify; padding: 7%;" data-aos="fade-down">
+        <div class="col">
+          <h1 style="border-bottom: 1px solid black; text-align: center;" id="tittleh1" >Information About Marriaga</h1>
+          <p style="margin-top: 2%;">
+          Forced marriage is a marriage in which one or more of the parties is married without his or her consent or against his or her will. A forced marriage differs from an arranged marriage, in which both parties consent to the assistance of their parents or a third party (such as a matchmaker) in choosing a spouse. There is often a continuum of coercion used to compel a marriage, ranging from outright physical violence to subtle psychological pressure. Forced marriage is still practised in various cultures across the world, particularly in parts of South Asia and Africa. Some scholars object to use of the term "forced marriage" because it invokes the consensual legitimating language of marriage (such as husband/wife) for an experience that is precisely the opposite. A variety of alternatives exist, including forced conjugal association, and conjugal slavery.
+
+          The United Nations views forced marriage as a form of human rights abuse, since it violates the principle of the freedom and autonomy of individuals. The Universal Declaration of Human Rights states that a woman's right to choose a spouse and enter freely into marriage is central to her life and dignity, and equality as a human being. The Roman Catholic Church deems forced marriage grounds for granting an annulment — for a marriage to be valid both parties must give their consent freely. Supplementary Convention on the Abolition of Slavery also prohibits marriage without right to refuse of herself out of her parents', family's and other persons' will and requires the minimum age for marriage to prevent this.
+
+          In 1969, the Special Court for Sierra Leone's (SCSL) Appeals Chamber found the abduction and confinement of women for "forced marriage" in war to be a new crime against humanity (AFRC decision). The SCSL Trial Chamber in the Charles Taylor decision found that the term 'forced marriage' should be avoided and rather described the practice in war as 'conjugal slavery' (2012).
+
+          In 2013, the first United Nations Human Rights Council resolution against child, early, and forced marriages was adopted; the resolution recognizes child, early, and forced marriage as involving violations of human rights which “prevents individuals from living their lives free from all forms of violence and that has adverse consequences on the enjoyment of human rights, such as the right to education, [and] the right to the highest attainable standard of health including sexual and reproductive health," and also states that "the elimination of child, early and forced marriage should be considered in the discussion of the post-2015 development agenda.
+
+          Comprehensive sexuality education can function as a way of preventing child early and forced marriage, or female genital mutilation.
+          </p>
+        </div>
+      </div>
+
+      <br>
+
+      
+        <div class="row" id="section13">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/card (5).jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Viewpoint Of Quran</h4>
+                  </div>
+                  <div class="timeline-body" style="color: white;>
+                    <p class="text-muted" >Marriage or marriage is one of the traditions of the Messenger of Allah (PBUH), which has always encouraged the youth to marry.
+                    From the viewpoint of Islam on the part of the people of the society of tradition, it is hypocritical and forbidden. It is prohibited for those who trust and do not overcome their instincts. The marriage of tradition is mostly among those who are members of this community.
+                    According to Ms. Nasrin Nazari, author of the book on women's rights in history: marriage is a phenomenon that is for the development of society or for the development of men and women</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/card (1).jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Viewpoint Of Medicine</h4>
+                  </div>
+                  <div class="timeline-body" style="color: white;>
+                    <p class="text-muted">With advancements in genetic engineering opening up new possibilities – and with the spread of diseases like AIDS – there is considerable pressure to require prospective spouses to undergo pre-marital medical exams. Some countries in the Arab world, like Syria , Tunisia , Morocco , the UAE, and Saudi Arabia , have encouraged their citizens to go for such pre-medical exams. Some have made doing so a legal requirement for marriage.There are genetic diseases that are widespread in some societies. A person carrying the gene for this sickness is not necessarily going to be sick. </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/card (4).png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Viewpoint Of Psychology</h4>
+                  </div>
+                  <div class="timeline-body" style="color: white;>
+                    <p class="text-muted">The psychologists want you to think analytically as well as romantically about whom to marry. Pay attention to traits. As Ty Tashiro wrote in “The Science of Happily Ever After,” you want to marry someone who scores high in “agreeableness,” someone who has a high concern for social harmony, who is good at empathy, who is nice. You want to avoid people who score high in neuroticism — who are emotionally unstable or prone to anger.</p>
+                  </div>
+                </div>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+
+
+
+      <!-- Testimonial Start -->
+            <div class="row" style="background-color: white;">
+              <div class="col-sm-12" id="portfolio" style="padding-top:3%; ">
+                <h1  id="textslide">
+                Types Of Marriages</h1>
+              </div>
+              <div class="col-sm-10 offset-md-1"  class="testimonial-section section-space-padding" style="margin-bottom: 5%;">
+                                                               
+                            <div class="row testimonial-carousel-list margin-top-20">
+                            
+                                <div class="col-sm-12 testimonial-word text-center coslider" >
+                                <img src="img/icon-replace.png" class="img-responsive" height="80px">
+                                    <h2>Replaced</h2>
+                                    <p>
+                                    Replica is one of the traits of Afghanistan. This tradition is the exchange of girl with daughter. That is, a person marries a daughter of a relative and, instead, her daughter marries a married member of one of the family members. This trace is one of the disadvantages and in many cases he has serious consequences.</p>
+                                </div>
+                                
+                                <div class="col-sm-12 testimonial-word text-center">
+                                <img src="img/587-1000x500.jpg" class="img-responsive" >
+                                    <h2>To hurt</h2>
+                                    <p>
+                                    Dozens of members of civil society organizations in Balkh called on religious scholars to attend a protest rally at the headquarters of the Balkh Provincial Council on the reduction of violence against women, in particular the reduction of the number of villagers, in this section through the mosque.</p>
+                                </div>
+                                
+                                <div class="col-sm-12 testimonial-word text-center coslider">
+                                  <img src="img/96-04-c07-906.jpg" class="img-responsive" alt="">
+                                    <h2>Under Age</h2>
+                                    <p> 
+                                    More than half of the girls in Afghanistan are married before reaching the age of 19, of which 40% are between the ages of 10 and 13, 32% at age 14 and 27% at the age of 15.
+                                    The United Nations has reported that seven million and 300,000 girls under the age of the world are forced to marry.</p>
+                                </div>
+
+                                <div class="col-sm-12 testimonial-word text-center coslider">
+                                  <img src="img/f.jpg" class="img-responsive" alt="">
+                                    <h2>Forced Marriage</h2>
+                                    <p>
+                                    Forced marriage leads to depression and fear in the victims, and these people experience various mental and physical problems and can hurt themselves. There are also some people who have tried to escape forced marriages or have fallen victim to honor crimes or have committed suicide.</p>
+                                </div>
+                                
+                            </div>                               
+               
+              </div>
+            </div>
+          <!-- Testimonial End -->
+
+          <div class="row" style=" background-color: white;" >
+            
+            <div class="col-sm-4 offset-md-1" style=" background-color: white;" >
+              <div id="head" style="padding: 6%; color: black; border-radius: 3px;">
+                <h2>Cases Of 2017</h2>
+                <li>
+                  <i class="fas fa-check" style="display: inline;"></i>
+                  <p style="display: inline;">Under Age : 1 Theorem</p>
+                </li>
+                <li>
+                  <i class="fas fa-check" style="display: inline;"></i>
+                  <p style="display: inline;">Threat : 1 Theorem</p>
+                </li>
+                <li>
+                  <i class="fas fa-check" style="display: inline;"></i>
+                  <p style="display: inline;">Mandatory marriage : 1 Theorem</p>
+                </li>
+                <li>
+                  <i class="fas fa-check" style="display: inline;"></i>
+                  <p style="display: inline;">Harassment : 16 Theorem</p>
+                </li>
+                <li>
+                  <i class="fas fa-check" style="display: inline;"></i>
+                  <p style="display: inline;">being hit : 103 Theorem</p>
+                </li>
+                <li>
+                  <i class="fas fa-check" style="display: inline;"></i>
+                  <p style="display: inline;">Self-sacrifice : 34 Theorem</p>
+                </li>
+              </div>
+            </div>
+            <div class="col-sm-6">
+                  <iframe src="graph3.html" height="100%" width="100%" id="iframe3"></iframe>       
+            </div>
+            
+          </div>
+
+
+          <div class="row" id="about">
+            <div class="col-sm-12" style="background-color: #0d0d0d; color: white; text-align: center; padding: 3%;">
+              <h1>About</h1>
+            </div>
+          </div>
+
+
+          <div class="row" style="width:100%;margin:auto; background-color: rgba(0,0,0,0.9); margin-top: 2%; margin-bottom: 2%;">
+      <div class="col-sm-5">
+        <div id="wrapper-about">
+          <div id="backOfInfo">
+            <div id="favorite"  onclick="f(this)" class="info"> <center>
+            <br>our team
+            </center></div>
+            <div id="home"  onclick="f(this)" class="info"> <center><br>Home</center></div>
+            <div id="education"   onclick="f(this)" class="info"> <center><br>Project</center></div>
+            <div id="sport"  onclick="f(this)" class="info"><center> <br>Support</center></div>
+            <div id="skill"  onclick="f(this)" class="info"> <center><br>Goal</center></div>
+            <div id="name"   onclick="f(this)" class="info"> <center><br>Name</center></div>
+            <div id="contact"   onclick="f(this) " class="info"> <center><br>Contact</center></div>
+            <div id="game"  onclick="f(this)" class="info"> <center><br>Problem</center></div>
+            <div id="cti" onclick="f(this)" class="info"> <center><br>CTI</center></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-7">
+      <br>
+      <br>
+      <br>
+        <div id="div-aboutPage" >
+          <center>
+              <br>
+            <div id="divforparagragh">
+              <img src="img/codetoinspire.png" width="300px" style="margin-top: 3%;">
+              <br>
+              <br>
+              <br>
+              <br>
+              <p id="p-aboutPage"></p>
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+          
+          <div class="row" >
+            <div class="col-sm-12" style="background-color: #0d0d0d; color: white; text-align: center; padding: 3%;">
+              <h1>Contact Us</h1>
+            </div>
+          </div>
+<div id="contact"></div>
+          <div class="row">
+            <div class="col">
+              
+                    
+                    <div>
+                    <br>
+                    <br><br><br>
+                    <div class="space"></div>
+                    <div class="container">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="footer-content">
+                          <h3><p class="large" style=" color:black; font-size:20px;">If you want to join us  this is the way that you can connect to us .</p>
+                          <ul class="list-icons" id="ulcontact">
+                            <li  style="padding:2% color:red;" id="firstchilde">
+                              <i class="fa fa-phone pr-10"></i>
+                             <p>+93 793023216</p>
+                            </li>
+                            <br>
+                            <li style="padding:2%"> 
+                              <i class="fa fa-phone pr-10"></i>
+                              <p>+93 792670624</p>
+                            </li>
+                            <br>
+                            <li  style="padding:2%"> 
+                              <i class="fa fa-envelope pr-10"></i>
+                              <p>susanshirzad1374@email.com</p>
+                            </li>
+                            <br>
+                            <li style= "padding:2%"> 
+                              <i class="fa fa-envelope pr-10"></i>
+                              <p>zainabamini1373@email.com</p>
+                            </li>
+                          </ul><br>
+                          <ul class="social-links" id="icontact">
+                            <li class="facebook" style="display:inline-block; font-size:40px; margin-left:3% "><a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                            <li class="twitter" style="display:inline-block; font-size:40px; margin-left:3% "><a target="_blank" href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                            <li class="googleplus" style="display:inline-block; font-size:40px; margin-left:3% "><a target="_blank" href="http://plus.google.com"><i class="fab fa-google-plus"></i></a></li>
+                            <li class="skype" style="display:inline-block; font-size:40px; margin-left:3% "><a target="_blank" href="http://www.skype.com"><i class="fab fa-skype"></i></a></li>
+                            <li class="youtube" style="display:inline-block; font-size:40px; margin-left:3% "><a target="_blank" href="http://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+                            
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-sm-6" style="margin-top: 2%;">
+                        <div class="footer-content">
+                          <form role="form" id="footer-form">
+                            <div class="form-group has-feedback">
+                              <label class="sr-only" for="name2">Name</label>
+                              <input type="text" class="form-control form-control677" id="name2" placeholder="Name" name="name2" required style="background-image: url(img/icon.png); background-size: 4% 60%; background-position: right ; background-repeat: no-repeat;">
+                            </div>
+                            <div class="form-group has-feedback">
+                              <label class="sr-only" for="email2">Email address</label>
+                              <input type="email" class="form-control form-control677" id="email2"  placeholder="Enter email" name="email2" required style="background-image: url(img/email.png); background-size: 5% 50%; background-position: right ; background-repeat: no-repeat;">
+                            </div>
+                            <div class="form-group has-feedback">
+                              <label class="sr-only" for="message2">Message</label>
+                              <textarea class="form-control form-control677"  rows="8" id="message2" placeholder="Message" name="message2" required style="background-image: url(img/pen-15.png); background-size: 4% 15%; background-position: right top; background-repeat: no-repeat;"></textarea>
+                            </div>
+                            <input type="submit" value="Send" class="btn btn-default " id="sendmassage">
+                          </form>
+                        </div>
+                      </div>
+                      
+                    </div>
+            </div>
+          </div>
+
+
+
+          <div class="row" style="background-color: black; padding: 3%; text-align: center;">
+            <div class="col-6 text-white" ><h3> Govenmental</h3> <h5><a href="#" id="footera">Plohibition of violence</a></h5> <h5><a href="#" id="footera">Women Rights Manegment</a></h5></div>
+            <div class="col-6 text-white" ><h3> Doner</h3> <h5><a href="#" id="footera">Medika</a></h5> <h5><a href="#"  id="footera">Haka</a></h5></div>
+          </div>
+     </div>
+
+          <a href="javascript:" id="return-to-top"><i class="fas fa-sort-up" id="backtoback" style="font-size: 50px;"></i></a>
+
+    <script type="text/javascript">
+
+      $(document).ready(  function(){ // ===== Scroll to Top ==== 
+      $(window).scroll(function() {
+          if ($(this).scrollTop() >= 100) {        // If page is scrolled more than 50px
+              $('#return-to-top').fadeIn(200);    // Fade in the arrow
+          } else {
+              $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+          }
+      });
+      $('#return-to-top').click(function() {      // When arrow is clicked
+          $('body,html').animate({
+              scrollTop : 0                       // Scroll to top of body
+          }, 500);
+      });
+
+
+      $(".testimonial-carousel-list").owlCarousel({
+              items: 1,
+              autoPlay: true,
+              stopOnHover: false,
+              navigation: true,
+              navigationText: ["<i class='fas fa-angle-left fa-2x owl-navi'></i>", "<i class='fas fa-angle-right fa-2x owl-navi'></i>"],
+              itemsDesktop: [1199, 1],
+              itemsDesktopSmall: [980, 1],
+              itemsTablet: [768, 1],
+              itemsTabletSmall: false,
+              itemsMobile: [479, 1],
+              autoHeight: true,
+              pagination: false,
+              transitionStyle : "backSlide"
+          });
+
+      $(function() {
+    var header = $(".nav1");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("scrolled");
+
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
+  
+});
+
+      $('document').ready(function() {
+        $('#btnothers').click(function() {
+          $('#others').toggle();
+        
+        });
+      });
+
+
+
+}); 
+    </script> 
+   
+	</body>
+</html>
